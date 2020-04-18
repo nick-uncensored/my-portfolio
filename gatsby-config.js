@@ -7,12 +7,12 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Delog`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://delog-w3layouts.netlify.com/`,
+    title: `Hank Portfolio`,
+    description: `A website for Hank  `,
+    siteUrl: `https://blissful-golick-9fbc8e.netlify.app/`,
     home: {
-      title: `Hi! I'm Delog`,
-      description: `I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)`,
+      title: `My name is Hank and this is my portfolio`,
+      description: `I just finished a coding boot camp and am now ready to start my first job`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
     w3l_dom_key: `5e609f7a2d23fCF_Domain_verify` 
@@ -42,14 +42,6 @@ module.exports = {
           resolve: 'gatsby-remark-emojis',
         }],
       },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: "UA-30027142-1",
-        head: true,
-      }
     },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
